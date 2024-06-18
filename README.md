@@ -18,7 +18,14 @@ POST http://localhost:8080/api/auth/register
 ## Steg 3
 Skapa databashantering i filen orders.db. Här skall endast den slutgiltiga, bekräftade ordern sparas. Kundvagnen är endast en temporär förteelse, se den kan vi hantera i en array till vidare.
 
+### Hämta alla ordrar
+Skapa en route som hämtar alla ordrar som finns i databasen på följande endpoint:
+```
+GET http://localhost:8080/api/orders
+```
+
 ### Hämta kundvagn
+
 Skapa en route där jag kan hämta min kundvagnsarray på följande endpoint:
 ```
 GET http://localhost:8080/api/orders/cart/
@@ -72,12 +79,6 @@ Skapa funktionalitet för att söka efter ordrar kopplade till en specifik anvä
 Skapa en route där jag kan hämta alla användare på följande endpoint:
 ```
 GET http://localhost:8080/api/auth/users
-```
-
-### Hämta alla ordrar
-Skapa en route som hämtar alla ordrar som finns i databasen på följande endpoint:
-```
-GET http://localhost:8080/api/orders
 ```
 
 ### Hämta orderhistorik för användare
