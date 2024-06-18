@@ -16,7 +16,7 @@ Skapa en route där jag kan hämta menyn på följande endpoint:
 POST http://localhost:8080/api/auth/register
 ```
 ## Steg 3
-Skapa databashantering i filen orders.db. Här skall endast den slutgiltiga, bekräftade ordern sparas. Kundvagnen är endast en temporär förteelse, se den kan vi hantera i en array till vidare.
+Skapa databashantering i filen orders.db. Här skall endast den slutgiltiga, bekräftade ordern sparas. Kundvagnen är endast en temporär förteelse, så den kan vi hantera i en array till vidare.
 
 ### Hämta alla ordrar
 Skapa en route som hämtar alla ordrar som finns i databasen på följande endpoint:
@@ -56,7 +56,7 @@ Anropet tar följande data i body:
 {
 	"username" : "Jesper",
 	"password" : "jesper123",
-  "role" : "guest"
+  	"role" : "guest"
 }
 ```
 ### Logga in användare
