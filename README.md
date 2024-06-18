@@ -4,7 +4,7 @@
 Detta är en kompletteringsuppgift för er som inte lyckats nå betyget godkänt i kursen Backend med Node.js. Uppgiften är byggd som en så kallad trappa, vilken består av ett antal steg. I samband med att jag skickar ut uppgiften kommer jag att förtydliga hur många steg ni förväntas ta för att nå betyget godkänt.
 
 ## Uppgift
-I detta arbete ska ni skapa ett API för webbappen Airbean där kunder skall kunna beställa kaffe och få den levererad via drönare. I stegen nedan finner ni den data och de endpoints som måste fungera för ett godkänt betyg. NOTERA att ni måste förhålla er till de endpoints och den data som specificeras nedan, det är inte tillåtet att avvika från denna specifikation.
+I detta arbete ska ni skapa ett API för webbappen Airbean där kunder skall kunna beställa kaffe och få den levererad via drönare. I stegen nedan finner ni den data och de endpoints som måste fungera för ett godkänt betyg. NOTERA att ni måste förhålla er till de endpoints och den data som specificeras nedan, det är inte tillåtet att avvika från denna specifikation. NOTERA även att användande av AI för att skriva kod är strängt förbjudet, och en kunskapskontroll för att säkerställa att det är du som skrivit koden kan förekomma.
 
 ## Steg 1
 Skapa en server med Node och Express, som använder sig av ES6-moduler. Servern skall lyssna på port 8080. Skapa mapparna *routes* (där ni sedan lägger alla era routes-filer), *middlewares* (där ni sedan lägger era middleware-filer), *models* (där ni lägger era validerings-filer), *services* (där ni hanterar era databas-filer). Alla anrop som tar emot data i bodyn måste valideras med hjälp utav middleware och schema. Vid alla anrop skall ett response-objekt returneras med rimlig data/information.
