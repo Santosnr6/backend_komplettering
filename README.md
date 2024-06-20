@@ -13,7 +13,7 @@ Skapa en server med Node och Express, som använder sig av ES6-moduler. Servern 
 Skapa databashantering i filen menu.db. Använd er av ett insert-anrop för att lägga till menyn instället för att hårdkoda in den vilket kan resultera i en korrupt fil. 
 Skapa en route där jag kan hämta menyn på följande endpoint:
 ```
-POST http://localhost:8080/api/auth/register
+POST http://localhost:8080/api/menu
 ```
 ## Steg 3
 Skapa databashantering i filen orders.db. Här skall endast den slutgiltiga, bekräftade ordern sparas. Kundvagnen är endast en temporär förteelse, så den kan vi hantera i en array till vidare.
